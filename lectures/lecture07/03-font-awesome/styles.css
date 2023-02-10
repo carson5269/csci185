@@ -3,5 +3,9 @@
 
 
 .fa-solid {
-    font-size: 50px;
+    font-size: 150px;
+}
+
+.fa-heart {
+    color: red
 }
