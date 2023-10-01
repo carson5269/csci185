@@ -70,14 +70,14 @@ h1, h2 {
     text-align: center;
 }
 
-.landing {
+.landing h1 {
     color: black;
     line-height: 1.2em;
     font-size: 1.7em;
     font-family: Malamondo-Alt;
 }
 
-a.landing {
+.landing a {
     text-align: center;
     background-color: #013672;
     color: white;
