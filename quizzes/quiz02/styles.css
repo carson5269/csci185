@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+header, main, footer {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+header img, footer img {
+    width: 200px;
+}
+
+header {
+    background-color: #013672;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+    padding: 40px;
+    padding-right: 0px;
+}
+
+nav a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+h1, h2, h3 {
+    font-family: 'Passion One', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    border: solid;
+    border-color: grey;
+    border-width: 1px;
+    padding: 20px;
+}
+
+.card:hover {
+    transition-duration: 0.5s;
+    background-color: #013672;
+    color: white;
+}
+
+/* Not sure why there's a white border around the images */
+
+.card img {
+    width: 200px;
+}
+
+@media (max-width: 800px) {
+    nav {
+        display: none;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    
+      .card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        border: solid;
+        border-color: grey;
+        border-width: 1px;
+        padding: 20px;
+    }
+}
