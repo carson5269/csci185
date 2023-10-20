@@ -85,7 +85,14 @@ footer {
 /* Your Code Here */
 
 #sidebar {
-    
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+  
+#sidebar a {
+    text-decoration: none;
+    margin: 10px;
 }
 
 /********************************/
