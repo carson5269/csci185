@@ -2,9 +2,10 @@ Please answer the following accessibility questions:
 
 
 1. What accessibility corrections did you have to make?
-
+I added alt text to the artist cards and fixed some contrast errors by lighening up certain grey colors I used.
 
 2. Do you think your website is usable if you turn off the CSS? Why or why not?
-
+I suppose it would be useable, but I think it would be pretty terrible to use. Everything would be clumped together on the left side with no styling, but if you really needed to I'm sure you could figure out how to make it work.
 
 3. Is your site is tabbable? In other words, without the use of the mouse, are all the links and buttons accessible using the tab key?
+No, I tried to use it by only tabbing and it wouldn't select a couple buttons like the profile and upgrade button, but it's mostly tabbable.
