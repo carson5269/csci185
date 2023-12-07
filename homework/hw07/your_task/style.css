@@ -136,6 +136,10 @@ header .fa-search {
     color: #CCC;
 }
 
+label {
+    display: none;
+}
+
 
 /* ***********************************************************
    ARTISTS, ALBUMS, & TRACKS
